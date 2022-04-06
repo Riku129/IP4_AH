@@ -13,7 +13,7 @@ SELECT publisherCode
 FROM book;
 
 #4) Retrieve the title and price of each book in the book relation. Further add a calculated column named ‘discount’ that shows the price the book with 25% discount. Order does not matter. Show the first five rows of the result
-SELECT title, price, (price * 0.75) AS "25% off"
+SELECT title, price, (price * 0.75) AS "Discount"
 FROM book
 LIMIT 5;
 
